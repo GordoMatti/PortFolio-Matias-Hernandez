@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+  <a href="#home" class="logo">Mati</a>
+  <i class="fa-solid fa-bars" id="menu-icon"></i>
+  <nav class="navbar">
+    <a href="#home" >Sobre mí</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#portfolio">Estudios</a>
+    <a href="#services">Servicios</a>
+    <a href="#contact">Contacto</a>
+  </nav>
+</header>
+
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+        <h1>Hola, soy <span>Mati</span></h1>
+<h3 class="typing-text">Yo soy <span class="typed"></span><span class="cursor"></span></h3>
+
+
+
+            <p>Actualmente soy estudiante de programación en la UTN y editor de videos. Me encanta todo lo referido a las computadoras y quiero aprender más sobre ellas.
+                Me gusta todo lo relacionado a la lógica, por eso me enfoco mas en lo que seria backend, de igual manera tengo conocimientos en frontend y soy capaz de resolver desafios.
+                Tambien tengo conocimientos en edicion de videos y trabajo de eso.
+                Me considero una persona proactiva y con ganas de aprender.</p>
+            
+                <div class="social-icon">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=matihernandez0519@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/GordoMatti"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mati.hernnandez/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#contact" class="btn">¡Contáctame!</a>
+                
+
+        </div>
+    </section>
+    <section class="services" id="services">
+  <h2 class="heading">Servicios</h2>
+  <div class="services-container">
+    <div class="service-box">
+      <div class="service-info">
+        <h3>Desarrollo Web</h3>
+        <p>Maquetación con HTML, CSS y JS. Ideal para portfolios y sitios personales.</p>
+      </div>
+    </div>
+    <div class="service-box">
+      <div class="service-info">
+        <h3>Edición de Video</h3>
+        <p>Edición profesional con Premiere, Photoshop y Lightroom para contenido digital.</p>
+      </div>
+    </div>
+    <div class="service-box">
+      <div class="service-info">
+        <h3>Desarrollo Backend con Java</h3>
+    <p>Trabajo con Java y el entorno IntelliJ IDEA para construir servicios backend estructurados</p>
+  </div>
+  </div>
+    
+  </div>
+</section>
+
+    <section class="skills" id="skills">
+  <h2 class="heading">Mis <span>Habilidades</span></h2>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <img src="img/html.png" alt="HTML">
+      <span>HTML</span>
+    </div>
+    <div class="skill-item">
+      <img src="img/css.png" alt="CSS">
+      <span>CSS</span>
+    </div>
+    <div class="skill-item">
+      <img src="img/js.png" alt="JavaScript">
+      <span>JavaScript</span>
+    </div>
+    <div class="skill-item">
+      <img src="img/python.png" alt="Python">
+      <span>Python</span>
+    </div>
+    <div class="skill-item">
+      <img src="img/mysql.png" alt="MySQL">
+      <span>MySQL</span>
+    </div>
+    <div class="skill-item">
+      <img src="img/premiere.png" alt="Premiere Pro">
+      <span>Premiere Pro</span>
+    </div>
+    <div class="skill-item">
+      <img src="img/photoshop.jpg" alt="Photoshop">
+      <span>Photoshop</span>
+    </div>
+    <div class="skill-item">
+      <img src="img/lightroom.png" alt="Lightroom">
+      <span>Lightroom</span>
+    </div>
+  </div>
+</section>
+
+    </section>
+   <section class="portfolio" id="portfolio">
+  <h2 class="heading">Mis estudios</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>Programacion</h4>
+        <p>Estudiante de programación en la UTN en segundo año.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>Edición de video</h4>
+        <p>Formación autodidacta y en una empresa dedicada a la fotografia y a la videografia, con edicion incluida para videoclips.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>Escuela</h4>
+        <p>Formación secundaria completada en el Instituto ISEP, con orientación en Humanidades.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h4>Bartender</h4>
+        <p>Preparacion teorica y practica en Beats Bar, empresa dedicada al servicio de preparación de bebidas alcohólicas y no alcohólicas. </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="heading">Contact<span> Me</span></h2>
+  <form class="contact-form" id="contactForm">
+    <div class="input-box">
+      <label for="name">NAME</label>
+      <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+    </div>
+
+    <div class="input-box">
+      <label for="email">EMAIL ADDRESS</label>
+      <input type="email" id="email" name="email" placeholder="Tu email" required>
+    </div>
+
+    <div class="input-box">
+      <label for="phone">PHONE NUMBER</label>
+      <input type="tel" id="phone" name="phone" placeholder="Tu teléfono">
+    </div>
+
+    <div class="input-box">
+      <label for="message">MESSAGE</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tu mensaje..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn">Enviar mensaje</button>
+  </form>
+
+  <!-- Mensaje de confirmación -->
+  <div id="formMessage" class="hidden">✅ Mensaje enviado correctamente</div>
+</section>
+
+
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
